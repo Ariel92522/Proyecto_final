@@ -9,9 +9,13 @@ nav{
 .nav-link{
     text-decoration: none;
     background-color: aliceblue;
+    padding: 14px 20px;
 }
 
-li{
+.nav-link:hover{
+    background-color: cornsilk;
+}
+.nav-item{
     list-style: none;
 }
 
@@ -19,6 +23,7 @@ ul{
     display: flex;
     justify-content: center;
     background-color: aqua;
+    padding: 14px 20px;
 }
 
 /*animales*/
