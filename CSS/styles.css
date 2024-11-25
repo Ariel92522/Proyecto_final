@@ -29,17 +29,17 @@ ul{
 
 /*animales*/
 
-img{
-    width: 275px;
-    height: auto;
-}
-
 .animal {
     width: 300px;
     height: 200px;
     border-color: white;
     justify-content: center;
     align-content: center;
+}
+
+.nom_animal{
+    text-decoration: none;
+    color: white;
 }
 
 .grilla {
