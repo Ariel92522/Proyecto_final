@@ -10,6 +10,7 @@ nav{
     text-decoration: none;
     background-color: aliceblue;
     padding: 14px 20px;
+    text-align: center;
 }
 
 .nav-link:hover{
@@ -31,6 +32,42 @@ ul{
 img{
     width: 275px;
     height: auto;
+}
+
+.animal {
+    width: 300px;
+    height: 200px;
+    border-color: white;
+    justify-content: center;
+    align-content: center;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-areas:
+                "uno dos tres"
+                "cuatro cinco seis";
+}
+
+.uno{
+    grid-area: uno;
+}
+
+.dos{
+    grid-area: dos;
+}
+
+.tres{
+    grid-area: tres;
+}
+
+.caja {
+    width: 300px;
+    height: 200px;
 }
 
 /*contacto*/
