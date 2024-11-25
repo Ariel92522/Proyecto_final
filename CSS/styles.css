@@ -6,6 +6,11 @@ nav{
     background-color: aqua;
 }
 
+.nav-link{
+    text-decoration: none;
+    list-style: none;
+}
+
 /*animales*/
 
 img{
