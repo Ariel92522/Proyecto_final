@@ -8,6 +8,9 @@ nav{
 
 .nav-link{
     text-decoration: none;
+}
+
+li{
     list-style: none;
 }
 
