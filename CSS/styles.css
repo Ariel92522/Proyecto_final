@@ -8,10 +8,17 @@ nav{
 
 .nav-link{
     text-decoration: none;
+    background-color: aliceblue;
 }
 
 li{
     list-style: none;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
 }
 
 /*animales*/
